@@ -25,6 +25,7 @@ public class Main {
     public static int generateAllNumbers(int[] numbers) {
         boolean generateNums = true;
         int i;
+        setArray1To100(numbers);
         for (i=0; generateNums; i++) {
             generateNums = false;
             int testNum = (int)(Math.random()*100+1);
